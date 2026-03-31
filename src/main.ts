@@ -1,9 +1,13 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import 'vuetify/styles';
+import '@mdi/font/css/materialdesignicons.css';
+import './styles/tailwind.css';
+import App from './App.vue';
+import router from './router';
+import vuetify from './plugins/vuetify';
+import { createApp } from 'vue';
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.use(router)
+app.use(router).use(vuetify);
 
-app.mount('#app')
+app.mount('#app');
