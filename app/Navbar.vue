@@ -1,10 +1,12 @@
 <script setup lang="ts">
+    import './styles/app.scss';
+
     const linkNames = ['Accueil', 'Biographie', 'Contactez-moi'];
     const linkRoutes = ['/', '/bio', '/contact'];
 </script>
 
 <template>
-    <v-app-bar class="d-flex">
+    <v-app-bar class="navbar">
         <v-btn
             v-for="link in linkNames"
             :key="link"

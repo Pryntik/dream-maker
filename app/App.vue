@@ -1,10 +1,12 @@
 <script setup lang="ts">
+    import './styles/app.scss';
     import Navbar from './Navbar.vue';
 </script>
 
 <template>
     <v-app class="v-app">
-        <div class="h-full w-full d-flex justify-center align-center">Contact</div>
+        <Navbar/>
+        <RouterView class="route-app"/>
     </v-app>
 </template>
 

@@ -19,7 +19,6 @@
     "vue-router": "^5.0.4"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.2.2",
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^25.5.0",
     "@vitejs/plugin-vue": "^6.0.5",
@@ -27,7 +26,6 @@
     "@vue/tsconfig": "^0.9.1",
     "npm-run-all2": "^8.0.4",
     "sass-embedded": "^1.98.0",
-    "tailwindcss": "^4.2.2",
     "typescript": "~6.0.2",
     "vite": "^8.0.3",
     "vite-plugin-vue-devtools": "^8.1.1",

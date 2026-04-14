@@ -1,0 +1,17 @@
+@use './variables' as *;
+
+.navbar {
+    height: $height-navbar;
+}
+
+.route-app {
+    margin-top: $height-navbar;
+}
+
+.home, .bio, .contact {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
