@@ -6,15 +6,14 @@
 </script>
 
 <template>
-    <v-app-bar class="navbar">
-        <v-btn
+    <v-tabs class="v-tabs">
+        <v-tab
             v-for="link in linkNames"
             :key="link"
             :text="link"
             @click="$router.push(linkRoutes[linkNames.indexOf(link)])"
-            variant="text"
-            class="mr-5"
-            rounded>
-      </v-btn>
-    </v-app-bar>
+            class="v-tab"
+            variant="text">
+      </v-tab>
+    </v-tabs>
 </template>

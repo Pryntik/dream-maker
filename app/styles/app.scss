@@ -1,17 +1,47 @@
 @use './variables' as *;
 
-.navbar {
+.v-tabs {
+    width: 100%;
+    position: fixed;
+    background-color: 100%;
+}
+
+.v-tabs, .v-tab {
     height: $height-navbar;
+    overflow: visible;
 }
 
 .route-app {
+    width: 90%;
+    height: 100%;
+    margin: auto;
     margin-top: $height-navbar;
 }
 
-.home, .bio, .contact {
+.bio, .contact {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.products {
+    height: 100%;
+    align-content: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product {
+    background-color: red;
+    width: 25%;
+    height: 30%;
+    min-width: 240px;
+    min-height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    user-select: none;
 }

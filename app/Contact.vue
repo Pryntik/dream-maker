@@ -1,7 +1,5 @@
 <template>
-    <v-app class="v-app">
-        <div class="contact">Contact</div>
-    </v-app>
+    <div class="contact">Contact</div>
 </template>
 
 <style scoped></style>

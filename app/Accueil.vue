@@ -1,7 +1,12 @@
+<script setup lang="ts">
+</script>
+
 <template>
-    <v-app class="v-app">
-        <div class="home">Accueil</div>
-    </v-app>
+    <div class="home">
+        <div class="products">
+            <div class="product" v-for="product in 5"></div>
+        </div>
+    </div>
 </template>
 
 <style scoped></style>

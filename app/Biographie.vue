@@ -1,7 +1,5 @@
 <template>
-    <v-app class="v-app">
-        <div class="bio">Biographie</div>
-    </v-app>
+    <div class="bio">Biographie</div>
 </template>
 
 <style scoped></style>
